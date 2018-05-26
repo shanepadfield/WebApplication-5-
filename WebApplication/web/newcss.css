@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+/*General formatting for the body including text style*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    width: 850px;
+    margin: 0 auto;
+    border: 3px solid gray;
+    background-color: white;
+}
+/*Shows what link is being hovered by changing it to an italic font style*/
+a:focus, a:hover {
+	font-style: italic;
+}
+/*Styles for the header*/
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid gray;
+		background-image: -moz-linear-gradient(
+	    30deg, blue 0%, gray 30%, white 50%, blue 80%, gray 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, blue 0%, gray 30%, white 50%, blue 80%, gray 100%);
+	background-image: -o-linear-gradient(
+	    30deg, blue 0%, gray 30%, white 50%, blue 80%, gray 100%);
+	background-image: linear-gradient(
+	    30deg, blue 0%, gray 30%, white 50%, blue 80%, gray 100%);
+	
+}
+header h2 {
+	font-size: 175%;
+	color: black;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
+}
+.shadow {
+	text-shadow: 2px 2px 2px black;
+}
+/*Styles for the main*/
+main {
+	clear: left;  
+}
+ul{
+    list-style-type: none;
+}
+
+section {
+	width: 600px;
+        height: 600px;
+	float: right;
+	padding: 0 0px 0px 0px;
+}
+section h1 {
+	color: black;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
+}
+section p {
+	padding-bottom: .5em;
+}
+table {
+    border-bottom: 1px solid black;
+}
+th{
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: .5em
+}
+td{
+   text-align: left;
+    padding: .5em 
+}
+/*Styles for the "article" section*/
+article {
+	padding: .5em 0;
+}
+article h2 {
+	font-size: 115%;
+	padding: 0 0 .25em 0;
+}
+article img {
+	float: left;
+	margin: .5em 0 1em 1em;
+        height: 150px;
+        width: 150px;
+        padding-right: 30px;
+        
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 12px;
+    padding: 10px 24px;
+    background-color: #008CBA;
+}
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 12px;
+    padding: 10px 24px;
+    background-color: #008CBA;
+}
+/*Styles for the aside*/
+aside {
+	width: 215px;
+	float: left;	
+}
+aside h2 {
+	color: black;
+	font-size: 130%;	
+}
+/*Styles for the navigation bar*/
+
+#horizontal ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#horizontal li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+#horizontal li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#horizontal li a:hover{
+    background-color: #111;
+}
+
+#nav_list li {
+	list-style: none;
+        border-bottom: 1px solid #555;
+}
+#nav_list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cccccc;
+    border: 1px solid #555;
+    height: 100%;
+}
+
+
+#nav_list a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .1em;
+}
+/*Styles for the footer*/
+footer {
+	background-color: gray;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
